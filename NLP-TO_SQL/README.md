@@ -1,6 +1,6 @@
 # Natural Language to SQL Query Converter
 
-![Banner Image](banner.png)
+
 
 This repository contains a project that allows you to convert natural language questions into SQL queries and returns results using the power of OpenAI's GPT model and Python.
 
@@ -26,10 +26,10 @@ The goal of this project is to make database querying accessible to non-programm
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository and Navigate to the NLP_to_SQL folder.
 
     ```
-    git clone https://github.com/username/nl-to-sql.git
+    git clone [https://github.com/username/nl-to-sql.git](https://github.com/NSR9/GPT_Projects.git)
     ```
 2. Install the necessary dependencies:
 
@@ -39,12 +39,12 @@ The goal of this project is to make database querying accessible to non-programm
 
 ## Usage
 
-1. Set up your database connection and OpenAI API key in the `config.py` file.
+1. Set up your database connection and OpenAI API key in the `main.py` file.
 
 2. Run the main script:
 
     ```
-    python main.py
+    python3 main.py
     ```
 
 3. Enter your natural language query when prompted.
